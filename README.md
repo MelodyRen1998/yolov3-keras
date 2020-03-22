@@ -20,7 +20,7 @@ It has been tested to work with Python 2.7.13 and 3.5.3. I used Python 3.7.0, an
 
 ### 1. Data Preparation
 
-For my thesis topic, I collected around 117 badminton court images from campus, all of which contain ball elements. I used [labelImg](https://github.com/tzutalin/labelImg) to create bounding box **annotations** as _PASCAL VOC_ format. Data augmentation was inspired by [Augment Bounding Boxes](https://nbviewer.jupyter.org/github/aleju/imgaug-doc/blob/master/notebooks/B02%20-%20Augment%20Bounding%20Boxes.ipynb), which could support for bounding boxes and their augmentation. There are totally 1177 images after augmentation, which could be found in `./data/train_set` and `./data/test_set`.
+For my thesis topic, I collected around 117 badminton court images from campus, all of which contain ball elements. I used [labelImg](https://github.com/tzutalin/labelImg) to create bounding box **annotations** as _PASCAL VOC_ format. Data augmentation was inspired by [Augment Bounding Boxes](https://nbviewer.jupyter.org/github/aleju/imgaug-doc/blob/master/notebooks/B02%20-%20Augment%20Bounding%20Boxes.ipynb), which could support for bounding boxes and their augmentation. There are totally 1177 images after augmentation, which could be found in `./images` and `./test_images`, with corresponding annotations in `./annotations` and `test_annotations`.
 
 If you are going to train YOLOv3 on your own data set, pls follow the instruction in [it](https://github.com/experiencor/keras-yolo3).
 
@@ -38,7 +38,7 @@ Despite it is an optional step, I still run `python gen_anchors.py -c config.jso
 
 `python train.py -c config.json`
 
-By the end of this process, the code will write the weights of the best model to the file specified in the setting "saved_weights_name" in the `config.json` file.
+By the end of this process, the code will write the weights of the best model to the file specified in the setting "saved_weights_name" in the `config.json` file. The `./ball.h5` is my trained model.
 
 During the training process, you may go to TensorBoard and visualize the training loss.
 
