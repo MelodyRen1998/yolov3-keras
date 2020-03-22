@@ -1,0 +1,26 @@
+<annotation verified="yes">
+	<folder>images</folder>
+	<filename>71_flip_lr.jpg</filename>
+	<path>/home/renyimeng/data/ball_dataset/images/71_flip_lr.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>ball_single</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>225</xmin>
+			<ymin>185</ymin>
+			<xmax>291</xmax>
+			<ymax>235</ymax>
+		</bndbox>
+	</object>
+</annotation>

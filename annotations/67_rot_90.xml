@@ -1,0 +1,26 @@
+<annotation verified="yes">
+	<folder>images</folder>
+	<filename>67_rot_90.jpg</filename>
+	<path>/home/renyimeng/data/ball_dataset/images/67_rot_90.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>ball_single</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>178</xmin>
+			<ymin>172</ymin>
+			<xmax>235</xmax>
+			<ymax>220</ymax>
+		</bndbox>
+	</object>
+</annotation>
