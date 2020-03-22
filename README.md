@@ -38,7 +38,7 @@ Despite it is an optional step, I still run `python gen_anchors.py -c config.jso
 
 `python train.py -c config.json`
 
-By the end of this process, the code will write the weights of the best model to the file specified in the setting "saved_weights_name" in the `config.json` file. The `./ball.h5` is my trained model.
+By the end of this process, the code will write the weights of the best model to the file specified in the setting "saved_weights_name" in the `config.json` file. My trained model has been uploaded to [BaiduCloud](https://pan.baidu.com/s/1kVz_lPI4O-i9KfJWi179MQ) with code `vxtz`.
 
 During the training process, you may go to TensorBoard and visualize the training loss.
 
